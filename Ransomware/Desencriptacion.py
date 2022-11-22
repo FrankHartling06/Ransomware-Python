@@ -14,7 +14,7 @@ def desencriptar(items, key):
             archivo.write(datos_desencriptados)
 
 if __name__ == '__main__':
-    ruta_desencriptar = 'C:\\Users\\fedua\\OneDrive\\Documents\\Ransomware\\Prueba'
+    ruta_desencriptar = 'C:\\Users\\fedua\\OneDrive\\Documents\\Ransomware\\Prueba'    #Se pone la dirrecion en donde se encuentra el archivo
     os.remove(ruta_desencriptar+'\\'+'readme.txt')
 
     items = os.listdir(ruta_desencriptar)
